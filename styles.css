@@ -1,0 +1,111 @@
+h1 {
+  font-size: 3em;
+  color: sienna;
+  float: left;
+}
+
+/* Colors for tiles */
+.tile-2 {
+  background-color: #eee4da;
+  color: white;
+}
+
+.tile-4 {
+  background-color: #eee1c9;
+  color: white;
+}
+
+.tile-8 {
+  background-color: #f3b27a;
+  color: white;
+}
+
+.tile-16 {
+  background-color: #f69664;
+  color: white;
+}
+
+.tile-32 {
+  background-color: #f77c5f;
+  color: white;
+}
+
+.tile-64 {
+  background-color: #f75f3b;
+  color: white;
+}
+
+.tile-128 {
+  background-color: #ca401e;
+  color: white;
+}
+
+.tile-256 {
+  background-color: #d63605;
+  color: white;
+}
+
+.tile-512 {
+  background-color: #bd3716;
+  color: white;
+}
+
+.tile-1024 {
+  background-color: #d42610;
+  color: white;
+  font-size: 2em;
+}
+
+.tile-2048 {
+  background-color: #ce0000;
+  color: white;
+  font-size: 2em;
+}
+
+/*  Baki cheeze */
+.score {
+  background-color: #4232e0;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  float: right;
+  width: 150px;
+  height: 70px;
+}
+
+.score span {
+  font-size: 2.5em;
+  font-weight: bolder;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: auto;
+  width: 500px;
+}
+
+.grid-container {
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(4, 100px);
+  grid-auto-flow: column;
+  width: 430px;
+  display: grid;
+  grid-gap: 10px;
+  background-color: #776e65;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.grid-tile {
+  color: #776e65;
+  background-color: rgba(211, 211, 211, 0.534);
+  font-size: 3em;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  display: flex;
+  border-radius: 10px;
+  float: left;
+}
